@@ -1,0 +1,40 @@
+@'
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+Phase_3_Spark_Preprocessing/error*.txt
+
+# Large trained model
+Phase_5_Machine_Learning/ML_Output/wind_model.pkl
+
+# Large household electricity datasets
+Phase 1 Update — Raw Data Collection & Data Ingestion/Datasets/household_power_consumption.txt
+Phase_2_Real_Time_Data_Pipeline/Raw_Dataset/household_power_consumption.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+'@ | Set-Content -Encoding UTF8 .gitignore
+# Personal preparation documents
+PRESENTATION_PREPARE.docx
+PRESENTATION_PREPARE.pdf
+
+# Personal preparation documents
+PRESENTATION_PREPARE.docx
+PRESENTATION_PREPARE.pdf
